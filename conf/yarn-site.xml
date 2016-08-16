@@ -9,6 +9,10 @@
     <value>spark-master</value>
   </property>
   <property>
+    <name>yarn.nodemanager.address</name>
+    <value>${yarn.nodemanager.hostname}:48484</value>
+  </property>
+  <property>
     <name>yarn.nodemanager.log-dirs</name>
     <value>file:///hadoop/yarn/node-manager/logs</value>
   </property>
